@@ -1,0 +1,18 @@
+<div class="card-pokemon">
+  <div class="card__titulo">
+    <h3>{{ pokemonName }}</h3>
+  </div>
+  <div class="card__imagem">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwq7NGTgtUMGN_oPwD_UfI1zV1wk0WhfGSA&usqp=CAU"
+      alt="Pokemon foto!"
+    />
+  </div>
+  <div class="card__stats">
+    <span
+      class="card__stats__tipoPokemon"
+      *ngFor="let atributo of tiposDeAtributos"
+      >{{ atributo }}</span
+    >
+  </div>
+</div>
