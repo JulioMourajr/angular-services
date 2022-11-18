@@ -20,6 +20,14 @@
   height: 70%;
   margin-left: auto;
   margin-right: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__imagem > img{
+  min-width: 80%;
+  min-height: 60%;
 }
 
 .card__stats{
@@ -36,4 +44,33 @@
   padding:5px;
   margin-right: 4px;
   font-weight: bold;
+}
+
+#divBusca{
+  margin-top:5px;
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:102px;
+  font-weight:bold;
+  background:#5F9EA0;
 }
